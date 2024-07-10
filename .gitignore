@@ -1,0 +1,5 @@
+outputs/
+__pycache__/
+renders/
+*.egg-info
+.vscode

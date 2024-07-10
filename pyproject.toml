@@ -1,0 +1,14 @@
+[project]
+name = "smooth_dnerf"
+version = "0.0.1"
+
+dependencies = ["nerfstudio >= 0.3.1"]
+
+[tool.setuptools.packages.find]
+include = ["smooth_dnerf*"]
+
+# register the entry point of your new method here:
+[project.entry-points.'nerfstudio.method_configs']
+nerfacto_dnerf = 'smooth_dnerf.dnerf_config:nerfacto_dnerf'
+nerfacto_nerfplayer_dnerf = 'smooth_dnerf.dnerf_config:nerfacto_nerfplayer_dnerf'
+vanilla_dnerf = 'smooth_dnerf.dnerf_config:vanilla_dnerf'
