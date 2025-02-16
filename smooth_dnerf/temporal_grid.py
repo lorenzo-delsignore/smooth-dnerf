@@ -20,7 +20,7 @@ that the feature vectors become time-aware.
 
 from typing import Optional
 
-import nerfplayer.cuda as _C
+import smooth_dnerf.cuda as _C
 import numpy as np
 import torch
 from jaxtyping import Float, Int

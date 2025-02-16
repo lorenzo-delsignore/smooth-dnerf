@@ -43,7 +43,7 @@ import numpy as np
 import tinycudann as tcnn
 import torch
 from jaxtyping import Float
-from nerfplayer.temporal_grid import TemporalGridEncoder
+from smooth_dnerf.temporal_grid import TemporalGridEncoder
 from nerfstudio.cameras.rays import Frustums, RayBundle, RaySamples
 from nerfstudio.configs.config_utils import to_immutable_dict
 from nerfstudio.data.scene_box import SceneBox
